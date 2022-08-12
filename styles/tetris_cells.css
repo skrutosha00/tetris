@@ -1,0 +1,42 @@
+td {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.filled_cell,
+.cell {
+  height: 26px;
+  width: 26px;
+}
+
+.I {
+  background: url(../png/piece_1.png) center/100% 100%;
+}
+
+.J {
+  background: url(../png/piece_2.png) center/100% 100%;
+}
+
+.L {
+  background: url(../png/piece_3.png) center/100% 100%;
+}
+
+.O {
+  background: url(../png/piece_4.png) center/100% 100%;
+}
+
+.T {
+  background: url(../png/piece_5.png) center/100% 100%;
+}
+
+.Z {
+  background: url(../png/piece_6.png) center/100% 100%;
+}
+
+.S {
+  background: url(../png/piece_7.png) center/100% 100%;
+}

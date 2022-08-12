@@ -1,0 +1,35 @@
+.wrapper {
+  backdrop-filter: brightness(0.6);
+  -webkit-backdrop-filter: brightness(0.6);
+}
+
+.header {
+  margin: 20px auto;
+  font-size: 2rem;
+}
+
+.text {
+  width: 90%;
+  height: 70%;
+  margin: 20px;
+
+  font-weight: 400;
+  text-align: left;
+
+  overflow: scroll;
+}
+
+.button {
+  position: absolute;
+  bottom: 5%;
+  left: calc(50% - 57px);
+
+  width: 114px;
+  height: 45px;
+  max-height: 75px;
+
+  transform-origin: bottom;
+  transform: scale(1.3);
+
+  background: url(../png/play.png) center/100% 100%;
+}

@@ -1,0 +1,138 @@
+.wrapper {
+  background: linear-gradient(180deg, #270032 0%, #4a0060 100%);
+}
+
+.top {
+  position: relative;
+  height: 134px;
+
+  background: linear-gradient(180deg, #bb4edb 0%, #640380 100%);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.best_cont {
+  position: absolute;
+  left: calc(50% - 138px);
+  top: calc(50% - 19px);
+
+  width: 276px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  text-transform: uppercase;
+
+  background: rgba(91, 0, 118, 0.5);
+  border: 1px solid #dc65ff;
+  border-radius: 15px;
+}
+
+.best {
+  font-size: 20px;
+  width: 40%;
+}
+
+.link {
+  position: absolute;
+  top: 25%;
+  left: calc(50% - 86px);
+  z-index: 5;
+
+  width: 172px;
+  height: 68px;
+
+  background: url(../png/play.png) center/100% 100%;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 90px;
+
+  background: linear-gradient(180deg, #bb4edb 0%, #640380 100%);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.piece_1 {
+  position: absolute;
+  left: calc(50% - 100px);
+  bottom: 90px;
+
+  width: 68px;
+  height: 268px;
+}
+
+.piece_2 {
+  position: absolute;
+  left: calc(50% - 31px);
+  bottom: 90px;
+
+  width: 197px;
+  height: 134px;
+}
+
+.piece_3 {
+  position: absolute;
+  left: calc(50% + 32px);
+  bottom: 223px;
+
+  width: 141px;
+  height: 141px;
+}
+
+.piece_4 {
+  position: absolute;
+  left: calc(50% + 172px);
+  bottom: 90px;
+
+  height: 197px;
+  width: 134px;
+}
+
+.piece_5 {
+  position: absolute;
+  left: calc(50% + 305px);
+  bottom: 90px;
+
+  width: 68px;
+  height: 268px;
+}
+
+.piece_6 {
+  position: absolute;
+  left: calc(50% - 299px);
+  bottom: 90px;
+
+  width: 197px;
+  height: 134px;
+}
+
+.piece_7 {
+  position: absolute;
+  left: calc(50% - 376px);
+  bottom: 158px;
+
+  width: 141px;
+  height: 141px;
+}
+
+.piece_8 {
+  position: absolute;
+  left: calc(50% - 444px);
+  bottom: 90px;
+
+  height: 197px;
+  width: 134px;
+}
+
+@media screen and (min-width: 600px) {
+  .best_cont,
+  .link {
+    transform: scale(1.5);
+  }
+}

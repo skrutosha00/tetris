@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-V.ttf");
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #bb4edb 0%, #640380 100%);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  touch-action: manipulation;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
